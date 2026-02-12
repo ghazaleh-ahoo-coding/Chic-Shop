@@ -1,0 +1,46 @@
+/* NotFound.css */
+
+.notfound-container {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fef2f2; /* light red/pink */
+  min-height: 80vh;
+}
+
+.notfound-container h1 {
+  font-size: 48px;
+  color: #b91c1c; /* dark red */
+  margin-bottom: 20px;
+}
+
+.notfound-container h1::before {
+  content: "🚫 ";
+}
+
+.notfound-container p {
+  font-size: 20px;
+  color: #7f1d1d; /* red shade */
+  margin-bottom: 30px;
+}
+
+.notfound-container button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #b91c1c;
+  color: white;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.notfound-container button:hover {
+  transform: scale(1.05);
+  background-color: #7f1d1d;
+}
+
+.notfound-container button::before {
+  content: "🏠 ";
+}
