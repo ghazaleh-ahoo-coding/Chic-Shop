@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+nav {
+  background-color: #1e293b; /* dark blue-gray */
+  padding: 15px 30px;
+  display: flex;
+  gap: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+  align-items: center;
+}
+
+nav a {
+  color: #f1f5f9; /* light text */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+nav a:hover {
+  color: #38bdf8; /* cyan hover */
+  transform: scale(1.05);
+}
+
+nav a.active {
+  color: #22c55e; /* green for active route */
+  font-weight: 600;
+}

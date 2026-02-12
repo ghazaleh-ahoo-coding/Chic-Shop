@@ -1,0 +1,68 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc; /* light gray background */
+  min-height: 80vh;
+}
+
+.home-container h1 {
+  font-size: 48px;
+  color: #1e293b; /* dark blue-gray */
+  margin-bottom: 10px;
+}
+
+.home-container h2 {
+  font-size: 28px;
+  color: #3b82f6; /* blue accent */
+  margin-bottom: 30px;
+}
+
+.home-container section p {
+  font-size: 18px;
+  color: #334155; /* dark gray text */
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.home-container section div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-container section div button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.home-container section div button:hover {
+  transform: scale(1.05);
+}
+
+/* Individual button colors */
+.home-container section div button:first-child {
+  background-color: #22c55e; /* green for Bag */
+  color: white;
+}
+
+.home-container section div button:first-child:hover {
+  background-color: #16a34a;
+}
+
+.home-container section div button:last-child {
+  background-color: #3b82f6; /* blue for Products */
+  color: white;
+}
+
+.home-container section div button:last-child:hover {
+  background-color: #2563eb;
+}
